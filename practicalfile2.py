@@ -1,0 +1,11 @@
+#19
+f=open("samp.txt",'r')
+f1=open("temp.txt",'w')
+c=f.read()
+f1.write(c)
+f.close()
+f1.close()
+f2=open("temp.txt",'r')
+d=f2.read()
+print(d)
+f2.close()
